@@ -19,7 +19,7 @@ from django.urls import path, include
 from portfolio.views import home
 
 urlpatterns = [
-    path('/', home),
+    path('', home),
     path('admin/', admin.site.urls),
     path('api/', include('portfolio.urls'))
 ]
