@@ -26,9 +26,16 @@ SECRET_KEY = 'django-insecure-ywg-k+7$&0x_z!(u$iw!8w=at5c3a=!h$b5mhr1xfxnitl6s@p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    'annthomascodes.com',
+    'www.annthomascodes.com',
+    'annthomascodes-backend.onrender.com'
+]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = [
+    'https://annthomascodes.com',
+    'https:www.annthomascodes.com'
+]
 
 
 # Application definition
